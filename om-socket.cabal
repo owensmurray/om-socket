@@ -1,6 +1,6 @@
 cabal-version:       3.0
 name:                om-socket
-version:             1.0.0.4
+version:             1.0.0.5
 synopsis:            Socket utilities.
 description:         Binary ingress server, egress client, and
                      bidirectional binarry client/server
@@ -14,6 +14,7 @@ build-type:          Simple
 extra-source-files:
   LICENSE
   README.md
+  changelog.md
 
 common warnings
   ghc-options:
