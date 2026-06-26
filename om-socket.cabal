@@ -1,6 +1,6 @@
 cabal-version:       3.0
 name:                om-socket
-version:             1.0.0.5
+version:             1.0.0.6
 synopsis:            Socket utilities.
 description:         Binary ingress server, egress client, and
                      bidirectional binarry client/server
@@ -49,12 +49,12 @@ library
     , aeson                >= 2.0.3.0   && < 2.3
     , bytestring           >= 0.10.12.1 && < 0.13
     , containers           >= 0.6.4.1   && < 0.8
-    , megaparsec           >= 9.2.2     && < 9.8
+    , megaparsec           >= 9.2.2     && < 9.9
     , network              >= 3.1.2.7   && < 3.3
     , stm                  >= 2.5.0.0   && < 2.6
     , streaming-binary     >= 0.3.0.1   && < 0.4
     , streaming-bytestring >= 0.3.2     && < 0.4
-    , tls                  >= 1.5.8     && < 2.4
+    , tls                  >= 1.5.8     && < 2.5
 
 test-suite test
   import: dependencies, warnings
